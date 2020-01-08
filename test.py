@@ -29,9 +29,43 @@ dataset1 = tf.data.Dataset.from_tensor_slices(tf.random.uniform([4, 10]))
 dataset2 = tf.data.Dataset.from_tensor_slices(
     (tf.random.uniform([4]),
         tf.random.uniform([4, 100], maxval=100, dtype=tf.int32)))
+dataset3 = tf.data.Dataset.zip((dataset1, dataset2))
 
+#
+for a, (b, c) in dataset3:
+    print('Shapes: {a.shape}, {b.shape}, {c.shape}' .format(a=a, b=b, c=c))
+
+# Data set using Sparse Tensor
+dataset4 = tf.data.Dataset.from_tensors(tf.SparseTensor(indices=[[0, 0], [1, 2]], values=[1, 2], dense_shape=[3, 4]))
+
+for z in dataset1:
+    print(z.numpy())
+
+# importing text data
+directory_url = 'https://storage.googleapis.com/download.tensorflow.org/data/illiad/'
+file_names = ['cowper.txt', 'derby.txt', 'butler.txt']
+
+file_paths = [
+    tf.keras.utils.get_file(file_name, directory_url + file_name)
+    for file_name in file_names
+]
+
+textDataset = tf.data.TextLineDataset(file_paths)
+
+# print first 5 lines of the Illiad
+for line in textDataset.take(5):
+    print(line.numpy())
+
+files_ds = tf.data.Dataset.from_tensor_slices(file_paths)
+lines_ds = files_ds.interleave(tf.data.TextLineDataset, cycle_length=3)
+
+for i, line in enumerate(lines_ds.take(9)):
+    if i % 3 == 0:
+        print()
+        print(line.numpy())
+
+# Making variables
 x = tf.constant(-2.0, name="x", dtype=tf.float32)
 a = tf.constant(5.0, name="x", dtype=tf.float32)
 b = tf.constant(13.0, name="x", dtype=tf.float32)
-
 y = tf.Variable(tf.add(tf.multiply(a, x), b))
