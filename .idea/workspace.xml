@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f7c64e3-9e29-4e0c-9cac-70785ad7654c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fasionAI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fasionAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/fasionAI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,12 +98,22 @@
       <option name="presentableId" value="Default" />
       <updated>1578352486623</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added a basic model based off the fasion dataset provided by Tensorflow">
+      <created>1578523775071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578523775071</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/AIProject" />
     </ignored-roots>
+    <MESSAGE value="Added a basic model based off the fasion dataset provided by Tensorflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a basic model based off the fasion dataset provided by Tensorflow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Inspections" timestamp="1578413236963">
@@ -114,22 +124,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="723" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578517880091" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1578523643981">
+    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578584267005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578523643981" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1578523643981">
+    <state x="640" y="249" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578584267005" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1578585508121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578523643981" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1578523643981">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578585508121" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1578585508121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578523643981" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1578523643981">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578585508121" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1578585508121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578523643981" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578585508121" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1578585508121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578585508121" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1578497553405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -138,10 +152,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578517863881" />
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578523736978">
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578585507369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578523736978" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578585507369" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1578414314880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
